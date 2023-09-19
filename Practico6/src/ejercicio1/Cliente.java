@@ -1,6 +1,8 @@
 package ejercicio1;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
+
 
 public class Cliente {
 	private String nombre;
@@ -21,16 +23,23 @@ public class Cliente {
 		this.nombre = nombre;
 	}
 
-	public void alquilarAuto(Auto unAuto) {
+	public void alquilarAuto(Auto unAuto, LocalDate unaFecha) {
 		if (!autosAlquilados.contains(unAuto) && unAuto.isDisponible()) {
 			autosAlquilados.add(unAuto);
 			unAuto.setDisponible(false);
-		}
+			unAuto.setFechaAlquiler(unaFecha);
+		} else {System.out.println("Auto no disponible");}
 	}
 	
-	public void alquilarPelicula(Pelicula unaPeli) {
+	public void alquilarPelicula(Pelicula unaPeli, LocalDate unaFecha) {
 		if (!peliculasAlquiladas.contains(unaPeli) && unaPeli.isDisponible()) {
 			peliculasAlquiladas.add(unaPeli);
-		}
+			unaPeli.setCantCopias(unaPeli.getCantCopias()-1);
+			unaPeli.setFechaAlquiler(unaFecha);
+		} else {System.out.println("Pelicula no disponible");}
+	}
+	
+	public String toString() {
+		return nombre;
 	}
 }

@@ -4,13 +4,11 @@ import java.util.ArrayList;
 
 public class Videoclub {
 	private ArrayList<Cliente> clientes;
-	private ArrayList<Pelicula> peliculas;
-	private ArrayList<Auto> autos;
+	private ArrayList<Producto> productos;
 
 	public Videoclub() {
 		this.clientes = new ArrayList<>();
-		this.peliculas = new ArrayList<>();
-		this.autos = new ArrayList<>();
+		this.productos = new ArrayList<>();
 	}
 
 	public void addCliente(Cliente unCliente) {
@@ -23,44 +21,42 @@ public class Videoclub {
 		return new ArrayList<Cliente>(clientes);
 	}
 
-	public void addPelicula(Pelicula unaPelicula) {
-		if (!peliculas.contains(unaPelicula)) {
-			peliculas.add(unaPelicula);
+	public void addProducto(Producto unProducto) {
+		if (!productos.contains(unProducto)) {
+			productos.add(unProducto);
 		}
 	}
 
-	public ArrayList<Pelicula> getPeliculas() {
-		return new ArrayList<Pelicula>(peliculas);
+	public ArrayList<Producto> getProductos() {
+		return new ArrayList<Producto>(productos);
 	}
 
-	public void addAuto(Auto unAuto) {
-		if (!autos.contains(unAuto)) {
-			autos.add(unAuto);
-		}
-	}
-
-	public ArrayList<Auto> getAutos() {
-		return new ArrayList<Auto>(autos);
-	}
-
-	public ArrayList<Auto> getAutosDisponibles() {
-		ArrayList<Auto> aux = new ArrayList<>();
-		for (Auto auto : autos) {
-			if (!auto.isDisponible()) {
-				aux.add(auto);
+	public ArrayList<Producto> getProductosDisponibles() {
+		ArrayList<Producto> aux = new ArrayList<>();
+		for (Producto producto : productos) {
+			if (producto.isDisponible()) {
+				aux.add(producto);
 			}
 		}
 		return aux;
 	}
-
-	public ArrayList<Pelicula> getPeliculasDisponibles() {
-		ArrayList<Pelicula> aux = new ArrayList<>();
-		for (Pelicula pelicula : peliculas) {
-			if (pelicula.isDisponible()) {
-				aux.add(pelicula);
+	
+	public ArrayList<Producto> getProductosAlquilados() {
+		ArrayList<Producto> aux = new ArrayList<>();
+		for (Producto producto : productos) {
+			if (!producto.isDisponible()) {
+				aux.add(producto);
 			}
 		}
 		return aux;
 	}
-
+	
+	/* Como comparo si pasaron n días entre las dos fechas?
+	 * 
+	 * public void getAlquileresVencidos() {
+		for(Producto producto : productos) {
+			if(producto.getFechaAlquiler())
+		}
+	}*/
+	
 }

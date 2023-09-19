@@ -1,21 +1,17 @@
 package ejercicio1;
 
-import java.time.LocalDate;
+public abstract class Auto extends Producto {
 
-public class Auto {
 	private String marca;
 	private double kms;
 	private String patente;
 	private boolean disponible;
-	private String tipoAuto;
-	private LocalDate fechaLimite;
 
-	public Auto(String marca, double kms, String patente, String tipoAuto, LocalDate fechaLimite) {
+	public Auto(String marca, double kms, String patente) {
 		this.marca = marca;
 		this.kms = kms;
 		this.patente = patente;
-		this.tipoAuto = tipoAuto;
-		this.fechaLimite = fechaLimite;
+
 		this.disponible = true;
 	}
 
@@ -43,14 +39,6 @@ public class Auto {
 		this.patente = patente;
 	}
 
-	public String getTipoAuto() {
-		return tipoAuto;
-	}
-
-	public void setTipoAuto(String tipoAuto) {
-		this.tipoAuto = tipoAuto;
-	}
-
 	public boolean isDisponible() {
 		return disponible;
 	}
@@ -58,13 +46,9 @@ public class Auto {
 	public void setDisponible(boolean disponible) {
 		this.disponible = disponible;
 	}
-
-	public LocalDate getFechaLimite() {
-		return fechaLimite;
-	}
-
-	public void setFechaLimite(LocalDate fechaLimite) {
-		this.fechaLimite = fechaLimite;
+	
+	public String toString() {
+		return marca;
 	}
 
 }

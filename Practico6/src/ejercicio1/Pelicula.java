@@ -1,18 +1,13 @@
 package ejercicio1;
 
-import java.time.LocalDate;
-
-public class Pelicula {
+public class Pelicula extends Producto {
 	private String info;
 	private int cantCopias;
-	private LocalDate fechaLimite;
 	private boolean disponible;
 
-	public Pelicula(String info, int cantCopias, LocalDate fechaLimite) {
+	public Pelicula(String info, int cantCopias) {
 		this.info = info;
 		this.cantCopias = cantCopias;
-		this.fechaLimite = fechaLimite;
-		this.disponible = true;
 	}
 
 	public String getInfo() {
@@ -34,7 +29,7 @@ public class Pelicula {
 	public boolean isDisponible() {
 		return this.getCantCopias() > 0;
 	}
-	
+
 	public boolean getDisponible() {
 		return disponible;
 	}
@@ -42,13 +37,8 @@ public class Pelicula {
 	public void setDisponible(boolean disponible) {
 		this.disponible = disponible;
 	}
-
-	public LocalDate getFechaLimite() {
-		return fechaLimite;
+	
+	public String toString() {
+		return info;
 	}
-
-	public void setFechaLimite(LocalDate fechaLimite) {
-		this.fechaLimite = fechaLimite;
-	}
-
 }
