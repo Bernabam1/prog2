@@ -1,0 +1,30 @@
+package ejercicio4;
+
+public class Usuario {
+	
+	private String nombre;
+	private boolean socio;
+	
+	public Usuario(String nombre, boolean socio) {
+		this.nombre = nombre;
+		this.socio = socio;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public boolean isSocio() {
+		return socio;
+	}
+
+	public void setSocio(boolean socio) {
+		this.socio = socio;
+	}
+	
+	
+}

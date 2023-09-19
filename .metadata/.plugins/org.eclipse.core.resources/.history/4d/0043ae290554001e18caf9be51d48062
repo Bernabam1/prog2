@@ -1,0 +1,5 @@
+package ejercicio5_SolucionDinamica;
+
+public abstract class FormaPago {
+
+}

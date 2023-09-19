@@ -1,0 +1,5 @@
+package ejercicio1_v2;
+
+public class Pelicula extends Pelicula {
+
+}

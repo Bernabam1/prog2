@@ -1,0 +1,27 @@
+package ejercicio1;
+
+import java.util.ArrayList;
+
+public class Cliente {
+	private String nombre;
+	private ArrayList<Alquiler> productosAlquilados;
+
+	public Cliente(String nombre) {
+		this.nombre = nombre;
+		this.productosAlquilados = new ArrayList<>();
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public void alquilarProducto(Alquiler unProducto) {
+		if (!productosAlquilados.contains(unProducto)) {
+			productosAlquilados.add(unProducto);
+		}
+	}
+}

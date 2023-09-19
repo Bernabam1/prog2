@@ -1,0 +1,17 @@
+package ejercicio1_v2;
+
+import java.time.LocalDate;
+
+public class AutoNaftero extends Auto {
+	private String tipoMotor;
+	
+	public AutoNaftero(String marca, double kms, String patente, LocalDate fechaLimite) {
+		super(marca, kms, patente, fechaLimite);
+		this.tipoMotor = "Electrico";
+	}
+
+	public String getTipoMotor() {
+		return tipoMotor;
+	}
+	
+}

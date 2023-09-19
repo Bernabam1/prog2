@@ -1,0 +1,11 @@
+package ejercicio4;
+
+import java.time.LocalDate;
+
+public class Turno {
+	
+	private Cancha cancha;
+	private Usuario usuario;
+	private LocalDate fecha;
+	
+}

@@ -1,0 +1,7 @@
+package ejercicio6;
+
+import java.util.ArrayList;
+
+public abstract class TipoEvaluador {
+	private ArrayList<String> conocimientos;
+}

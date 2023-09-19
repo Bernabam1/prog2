@@ -1,0 +1,42 @@
+package ejercicio5;
+
+public class EmpleadoBono extends Empleado {
+	private int cantVentas;
+	private double bono;
+
+	public EmpleadoBono(String nombre, String apellido, int dni, double sueldoBase) {
+		super(nombre, apellido, dni, sueldoBase);
+		this.cantVentas = 0;
+		this.bono = 0;
+	}
+
+	public int getCantVentas() {
+		return cantVentas;
+	}
+
+	public void setCantVentas(int cantVentas) {
+		this.cantVentas = cantVentas;
+	}
+
+	public double getBono() {
+		double bono = 0;
+		if (this.getCantVentas() >= 50) {
+			bono = 5000;
+		} else if (this.getCantVentas() >= 100) {
+
+		}
+	}return bono;
+
+	}
+
+	public void setBono(double bono) {
+		this.bono = bono;
+	}
+
+	@Override
+	public double cobrarSueldo() {
+
+		return 0;
+	}
+
+}

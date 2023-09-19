@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="ejercicio2v2.Casa"/>
+    <fullyQualifiedTypeName name="ejercicio2.Casa"/>
+    <fullyQualifiedTypeName name="ejercicio2.Alumno"/>
+    <fullyQualifiedTypeName name="ejercicio2.Gryffindor"/>
+    <fullyQualifiedTypeName name="ejercicio3.Cereal"/>
+    <fullyQualifiedTypeName name="ejercicio4.ContribuyenteSimple"/>
+    <fullyQualifiedTypeName name="ejercicio5.Vendedor"/>
+    <fullyQualifiedTypeName name="ejercicio5_SolucionDinamica.ComisionPorVenta"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ejercicio1_v2.Pelicula"/>
+    <fullyQualifiedTypeName name="ejercicio1_v2.AutoNaftero"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+</qualifiedTypeNameHistroy>

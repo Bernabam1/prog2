@@ -1,0 +1,15 @@
+package ejercicio4;
+
+public class ContribuyenteSimple extends Contribuyente {
+
+	public ContribuyenteSimple(String nombre, int id, double impuestoFijo) {
+		super(nombre, id, impuestoFijo);
+	}
+
+	@Override
+	public double getImpuesto() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

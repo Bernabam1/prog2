@@ -1,0 +1,10 @@
+package ejercicio5_SolucionDinamica;
+
+public class Empleado {
+	private String nombre;
+	private FormaPago fp;
+
+	public Empleado(String nombre) {
+		this.nombre = nombre;
+	}
+}

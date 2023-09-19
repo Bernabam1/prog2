@@ -1,0 +1,8 @@
+package ejercicio4;
+
+public class Turno {
+	
+	private Cancha cancha;
+	private Usuario usuario;
+	
+}

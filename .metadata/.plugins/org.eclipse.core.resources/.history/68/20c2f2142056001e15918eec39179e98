@@ -1,0 +1,28 @@
+package ejercicio1;
+
+public class Pelicula {
+	private String info;
+	private int cantCopias;
+
+	public Pelicula(String info, int cantCopias) {
+		this.info = info;
+		this.cantCopias = cantCopias;
+	}
+
+	public String getInfo() {
+		return info;
+	}
+
+	public void setInfo(String info) {
+		this.info = info;
+	}
+
+	public int getCantCopias() {
+		return cantCopias;
+	}
+
+	public void setCantCopias(int cantCopias) {
+		this.cantCopias = cantCopias;
+	}
+
+}

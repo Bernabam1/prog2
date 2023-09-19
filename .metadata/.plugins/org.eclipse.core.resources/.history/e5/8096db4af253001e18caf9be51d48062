@@ -1,0 +1,14 @@
+package ejercicio4;
+
+public class ContribuyenteComerciante extends Contribuyente {
+
+	public ContribuyenteComerciante(String nombre, int id, double impuestoFijo) {
+		super(nombre, id, impuestoFijo);
+	}
+
+	@Override
+	public double getImpuesto() {
+		return this.getImpuestoFijo();
+	}
+
+}

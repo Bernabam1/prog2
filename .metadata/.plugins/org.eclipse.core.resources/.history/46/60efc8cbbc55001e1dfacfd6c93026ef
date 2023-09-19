@@ -1,0 +1,40 @@
+package ejercicio1;
+
+public class Auto {
+	private String marca;
+	private double kms;
+	private String patente;
+	private TipoAuto tipo;
+
+	public Auto(String marca, double kms, String patente) {
+		super();
+		this.marca = marca;
+		this.kms = kms;
+		this.patente = patente;
+	}
+
+	public String getMarca() {
+		return marca;
+	}
+
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+	public double getKms() {
+		return kms;
+	}
+
+	public void setKms(double kms) {
+		this.kms = kms;
+	}
+
+	public String getPatente() {
+		return patente;
+	}
+
+	public void setPatente(String patente) {
+		this.patente = patente;
+	}
+
+}

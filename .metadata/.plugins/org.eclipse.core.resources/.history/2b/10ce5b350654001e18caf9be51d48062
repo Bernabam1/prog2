@@ -1,0 +1,12 @@
+package ejercicio5_SolucionDinamica;
+
+public class HorasExtras extends FormaPago {
+	private int horas;
+	private double 
+
+	protected double calcularSueldo() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

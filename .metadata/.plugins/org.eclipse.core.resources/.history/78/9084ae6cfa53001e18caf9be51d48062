@@ -1,0 +1,13 @@
+package ejercicio5;
+
+public class Main {
+	public static void main(String[] args) {
+		Empresa e1 = new Empresa();
+		
+		Vendedor martin = new Vendedor("Martín", "Gómez" , 30111333, 15000);
+		Vendedor pablo = new Vendedor ("Pablo","Pérez", 20555666, 13000);
+		
+		martin.setPorcentajePorVenta(5);
+		pablo.setPorcentajePorVenta(10);
+	}
+}

@@ -1,0 +1,15 @@
+package ejercicio1;
+
+import java.util.ArrayList;
+
+public class Videoclub {
+	private ArrayList <Cliente> clientes;
+	private ArrayList <Pelicula> peliculas;
+	private ArrayList <Auto> autos;
+	
+	public Videoclub() {
+		this.clientes = new ArrayList<>();
+		this.peliculas = new ArrayList<>();
+		this.autos = new ArrayList<>();
+	}
+}

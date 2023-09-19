@@ -1,0 +1,11 @@
+package ejercicio1_v2;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Cliente c1 = new Cliente("Cliente 1");
+		Cliente c2 = new Cliente("Cliente 2");
+		
+		Pelicula p1 = new Pelicula("Terminator", 10, null);
+	}
+}

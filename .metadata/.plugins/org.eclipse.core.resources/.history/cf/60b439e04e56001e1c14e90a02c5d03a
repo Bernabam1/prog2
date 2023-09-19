@@ -1,0 +1,7 @@
+package ejercicio1_v2;
+
+public abstract class Producto {
+	private Date fechaAlquiler;
+	
+	public abstract boolean isDisponible();
+}

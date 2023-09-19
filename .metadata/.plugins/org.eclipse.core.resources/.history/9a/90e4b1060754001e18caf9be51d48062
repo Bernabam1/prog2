@@ -1,0 +1,7 @@
+package ejercicio5_SolucionDinamica;
+
+public abstract class FormaPago {
+	
+	protected abstract double calcularSueldo();
+
+}

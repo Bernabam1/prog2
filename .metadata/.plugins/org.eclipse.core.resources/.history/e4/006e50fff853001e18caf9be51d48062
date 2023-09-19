@@ -1,0 +1,16 @@
+package ejercicio5;
+
+public class Vendedor extends Empleado {
+	
+
+	public Vendedor(String nombre, String apellido, int dni, double sueldoBase) {
+		super(nombre, apellido, dni, sueldoBase);
+	}
+
+	@Override
+	public double cobrarSueldo() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

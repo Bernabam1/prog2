@@ -1,0 +1,17 @@
+package ejercicio6;
+
+import java.util.ArrayList;
+
+public class Congreso {
+	private ArrayList<Evaluador> evaluadores;
+	private ArrayList<Trabajo> trabajos;
+	
+	public Congreso() {
+		this.evaluadores = new ArrayList<>();
+		this.trabajos = new ArrayList <>();
+	}
+	
+	public ArrayList<Evaluador> getEvaluadores(){
+		return new ArrayList<Evaludaro>(evaluadores);
+	}
+}

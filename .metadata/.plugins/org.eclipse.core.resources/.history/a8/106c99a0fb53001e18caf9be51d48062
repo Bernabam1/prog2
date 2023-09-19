@@ -1,0 +1,15 @@
+package ejercicio5;
+
+public class EmpleadoBono extends Empleado {
+
+	public EmpleadoBono(String nombre, String apellido, int dni, double sueldoBase) {
+		super(nombre, apellido, dni, sueldoBase);
+	}
+
+	@Override
+	public double cobrarSueldo() {
+		
+		return 0;
+	}
+
+}

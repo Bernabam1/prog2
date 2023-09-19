@@ -1,0 +1,12 @@
+package ejercicio5_SolucionDinamica;
+
+public class ComisionPorVenta extends FormaPago {
+	private double montoVentas;
+	private double porcentajePorVenta;
+
+	protected double calcularSueldo() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
