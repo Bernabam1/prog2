@@ -1,5 +1,0 @@
-package ejercicio6;
-
-public abstract class TipoEvaluador {
-	private ArrayList<String> conocimientos;
-}

@@ -1,7 +1,0 @@
-package ejercicio1;
-
-public class Auto {
-	private String marca;
-	private double kms;
-	private String patente;
-}

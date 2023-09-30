@@ -1,9 +1,0 @@
-package ejercicio1_v2;
-
-import java.util.Date;
-
-public abstract class Producto {
-	private Date fechaAlquiler;
-	
-	public abstract boolean isDisponible();
-}

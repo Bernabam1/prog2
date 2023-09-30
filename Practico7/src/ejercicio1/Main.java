@@ -51,6 +51,10 @@ public class Main {
 		
 		System.out.println(emp.buscar(ct));
 		
+		CultivoEnfermedad ce = new CultivoEnfermedad(e1,c3);
+		
+		System.out.println(emp.buscar(ce));
+		
 	}
 
 }

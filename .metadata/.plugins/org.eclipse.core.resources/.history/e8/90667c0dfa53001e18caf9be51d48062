@@ -1,9 +1,0 @@
-package ejercicio5;
-
-public class Main {
-	public static void main(String[] args) {
-		Empresa e1 = new Empresa();
-		
-		Vendedor martin = new Vendedor(null, null, 0, 0)
-	}
-}
