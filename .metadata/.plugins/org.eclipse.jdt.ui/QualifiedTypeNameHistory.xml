@@ -15,6 +15,9 @@
     <fullyQualifiedTypeName name="ejercicio1_v2.AutoNaftero"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="test.EmpleadoComision"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.format.TextStyle"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
 </qualifiedTypeNameHistroy>

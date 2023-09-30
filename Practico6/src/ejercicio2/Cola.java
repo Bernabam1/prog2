@@ -1,6 +1,7 @@
 package ejercicio2;
 
 public abstract class Cola {
-
-	public abstract void ejecutarProceso();
+	
+	public abstract void addCola();
+	
 }
