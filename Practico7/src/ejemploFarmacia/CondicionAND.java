@@ -1,6 +1,6 @@
 package ejemploFarmacia;
 
-public class CondicionAND extends Condicion {
+public class CondicionAND implements Condicion {
 	Condicion cond1, cond2;
 	//CondicionAND compara dos condiciones
 

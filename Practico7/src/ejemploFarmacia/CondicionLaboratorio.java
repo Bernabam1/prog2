@@ -1,6 +1,6 @@
 package ejemploFarmacia;
 
-public class CondicionLaboratorio extends Condicion {
+public class CondicionLaboratorio implements Condicion {
 	private String nombreLab;
 
 	public CondicionLaboratorio(String nombreLab) {

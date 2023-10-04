@@ -1,5 +1,5 @@
 package ejercicio1;
 
-public abstract class Condicion {
-	public abstract boolean cumple(Agroquimico unAgroquimico);
+public interface Condicion {
+	public boolean cumple(Agroquimico unAgroquimico);
 }

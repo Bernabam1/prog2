@@ -1,7 +1,7 @@
 package ejemploFarmacia;
 
-public class CondicionNOT extends Condicion {
-	Condicion cond1;
+public class CondicionNOT implements Condicion {
+	private Condicion cond1;
 
 	public CondicionNOT(Condicion cond1) {
 		this.cond1 = cond1;

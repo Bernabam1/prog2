@@ -1,6 +1,6 @@
 package ejemploFarmacia;
 
-public class CondicionNombre extends Condicion {
+public class CondicionNombre implements Condicion {
 	private String substring;
 
 	public CondicionNombre(String substring) {

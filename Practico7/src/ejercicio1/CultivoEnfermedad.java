@@ -1,6 +1,6 @@
 package ejercicio1;
 
-public class CultivoEnfermedad extends Condicion {
+public class CultivoEnfermedad implements Condicion {
 	private Enfermedad unaEnfermedad;
 	private Cultivo unCultivo;
 	

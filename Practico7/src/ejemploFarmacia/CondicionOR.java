@@ -1,7 +1,7 @@
 package ejemploFarmacia;
 
-public class CondicionOR extends Condicion {
-	Condicion cond1, cond2;
+public class CondicionOR implements Condicion {
+	private Condicion cond1, cond2;
 	// CondicionAND compara dos condiciones
 
 	public CondicionOR(Condicion cond1, Condicion cond2) {

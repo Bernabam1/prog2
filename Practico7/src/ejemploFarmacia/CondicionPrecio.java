@@ -1,6 +1,6 @@
 package ejemploFarmacia;
 
-public class CondicionPrecio extends Condicion {
+public class CondicionPrecio implements Condicion {
 	private double precioTope;
 
 	public CondicionPrecio(double precioTope) {

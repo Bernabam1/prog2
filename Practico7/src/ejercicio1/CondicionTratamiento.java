@@ -1,6 +1,6 @@
 package ejercicio1;
 
-public class CondicionTratamiento extends Condicion {
+public class CondicionTratamiento implements Condicion {
 	private Enfermedad unaEnfermedad;
 	
 	public CondicionTratamiento(Enfermedad unaEnfermedad) {
