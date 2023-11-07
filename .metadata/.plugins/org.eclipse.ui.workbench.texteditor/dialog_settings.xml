@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="LocalTime"/>
+		<item key="selection" value="&#x09;"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="&#x09;"/>
+			<item value="Modelar un sistema que permita la organización de noticias de un portal"/>
 			<item value="LocalDate"/>
 			<item value="this.calificacion = calificacion;"/>
 		</list>
