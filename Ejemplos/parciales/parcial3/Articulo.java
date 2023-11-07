@@ -2,7 +2,7 @@ package parcial3;
 
 import java.util.ArrayList;
 
-public abstract class Articulo {
+public abstract class Articulo implements Comparable<Articulo>{
 	private String categoria;
 	
 	public Articulo(String categoria) {
@@ -18,4 +18,8 @@ public abstract class Articulo {
 	public abstract Articulo getCopia(Condicion cond);
 	
 	public abstract ArrayList<Articulo> buscar(Condicion cond);
+	
+	public int compareTo(Articulo art) {
+		return art.getCategoria().compareTo(this.getCategoria());
+	}
 }

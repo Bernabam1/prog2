@@ -17,7 +17,7 @@ public class Seccion extends Articulo {
 
 	public void addElemento(Articulo elem) {
 		elementos.add(elem);
-		Collections.sort(elementos, new ComparatorCategoria()); // Consultar esto
+		Collections.sort(elementos); // new ComparatorCategoria()); si se va a cambiar en tiempo de ejecucion. Sino, Comparable
 	}
 	
 	@Override
@@ -58,8 +58,9 @@ public class Seccion extends Articulo {
 	public ArrayList<Articulo> buscar(Condicion cond) {
 		ArrayList<Articulo> resultado = new ArrayList<>();
 		for(Articulo elem : elementos) {
-			resultado.addAll(elem.getCopia(cond)); // Como resuelvo esto?
+			resultado.addAll(elem.buscar(cond)); // Para que algo se propague siempre pregunto de nuevo por el mismo metodo
 		}
+		return resultado;
 	}
 
 	
